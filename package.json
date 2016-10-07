@@ -1,0 +1,25 @@
+{
+  "name": "jenkins-pipeline-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ty2-exp/jenkins-pipeline-test.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ty2-exp/jenkins-pipeline-test/issues"
+  },
+  "homepage": "https://github.com/ty2-exp/jenkins-pipeline-test#readme",
+  "dependencies": {
+    "mocha": "^3.1.0"
+  }
+}
